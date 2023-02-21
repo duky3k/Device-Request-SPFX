@@ -1,0 +1,111 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+.center{
+  display: flex;
+  justify-content: center;
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+.formRequest {
+  background-color: #344a72;
+  // font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.formValidation{
+  color: red !important;
+  display:  none !important;
+  margin: 5 px !important;
+}
+.welcome {
+  text-align: center;
+}
+
+.textPrimary {
+  color: #49c1a2 !important;
+}
+.btnPrimary {
+  color: #fff;
+  background-color: #0CDA90;
+  border-color: #0CDA90;
+  box-shadow: 0 3px 2px rgb(12 218 144 / 20%);
+}
+
+.box {
+  width: 550px;
+  height: 700px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+	width: 500px;
+	margin-left: 20px;
+	label {
+		display: flex;
+		margin-top: 20px;
+		font-size: 18px;
+	}
+	select {
+		width: 100%;
+		padding: 7px;
+		border: none;
+		border: 1px solid gray;
+		border-radius: 6px;
+		outline: none;
+	}
+	input {
+		width: 100%;
+		padding: 7px;
+		border: none;
+		border: 1px solid gray;
+		border-radius: 6px;
+		outline: none;
+	}
+  button {
+    width: 100%;
+		padding: 7px;
+    margin-top: 20px;
+		border: none;
+		background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+		outline: none;
+    cursor: pointer;
+    &:hover {
+      background-color: #344a72;
+    }
+  }
+}
+// input[type="button"] {
+//   width: 500px;
+//   height: 35px;
+//   margin-top: 20px;
+//   border: none;
+//   background-color: #49c1a2;
+//   color: white;
+//   font-size: 18px;
+// }
